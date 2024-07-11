@@ -1,0 +1,30 @@
+/* Styles cc */
+
+.conteneur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteneur ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+.conteneur ul li a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: blue;
+    /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 768px) {
+    .conteneur ul{
+        display: none;
+    }
+}
+
+
