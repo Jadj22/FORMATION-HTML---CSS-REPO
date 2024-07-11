@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jour 3 : Formulaire et Utilisation des Icônes</title>
+    <!-- Inclure la bibliothèque Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="cssjour3.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+
+    <h1>Formulaire et Utilisation des Icônes</h1>
+    <!-- Formulaire avec fieldset -->
+    <form action="/submit-form" method="POST">
+        <fieldset>
+            <legend>Informations Personnelles</legend>
+
+            <!-- Champ de texte -->
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+            <br><br>
+
+            <!-- Zone de texte -->
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message ici"></textarea>
+            <br><br>
+            <!-- Menu déroulant -->
+            <label for="pays">Pays :</label>
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="canada">Canada</option>
+                <option value="belgique">Belgique</option>
+                <option value="autre">Autre</option>
+            </select>
+            <br><br>
+            <!-- Cases à cocher -->
+            <label>Intérêts :</label><br>
+            <input type="checkbox" id="interet1" name="interet1" value="sport">
+            <label for="interet1">Sport</label><br>
+            <input type="checkbox" id="interet2" name="interet2" value="lecture">
+            <label for="interet2">Lecture</label><br>
+            <br>
+            <!-- Bouton de soumission -->
+            <input type="submit" value="Envoyer">
+        </fieldset>
+    </form>
+            <!-- Utilisation des icônes avec Boxicons -->
+            <h2>Utilisation des Icônes avec Boxicons</h2>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin'></i>
+            <!-- Exemples d'autres icônes -->
+            <i class='bx bx-heart'></i>
+            <i class='bx bx-home'></i>
+            <i class='bx bx-user'></i>
+            <i class='bx bxl-gmail'></i>
+            <i class='bx bxl-universal-access bx-fade-left bx-rotate-180' ><i class='bx bxl-docker bx-tada bx-rotate-180' ></i></i>
+            <i class='bx bxs-universal-access bx-tada bx-rotate-180' >rotate</i>
+            <i class='bx bxl-docker bx-tada bx-rotate-180' ></i>
+            <i class='bx bxl-steam bx-tada bx-rotate-180' ></i>
+            <i class='bx bxs-user-voice bx-tada bx-rotate-180' ></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: rotate(180deg);msFilter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);"><path d="M8 12.052c1.995 0 3.5-1.505 3.5-3.5s-1.505-3.5-3.5-3.5-3.5 1.505-3.5 3.5 1.505 3.5 3.5 3.5zM9 13H7c-2.757 0-5 2.243-5 5v1h12v-1c0-2.757-2.243-5-5-5zm9.364-10.364L16.95 4.05C18.271 5.373 19 7.131 19 9s-.729 3.627-2.05 4.95l1.414 1.414C20.064 13.663 21 11.403 21 9s-.936-4.663-2.636-6.364z"></path><path d="M15.535 5.464 14.121 6.88C14.688 7.445 15 8.198 15 9s-.312 1.555-.879 2.12l1.414 1.416C16.479 11.592 17 10.337 17 9s-.521-2.592-1.465-3.536z"></path></svg>
+</body>
+
+</html>
