@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>projet Rolle</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css-->
+    <link rel="stylesheet" href="../ROLLE projet/styles.css">
+</head>
+
+<body>
+    
+    <!-- header desing-->
+    <header class="header">
+        <a href="#" class="logo"> portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navnar"> 
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+ </header>
+     <!--home section desing-->
+ <section class="home" id="home">
+        <div class="home-content"> 
+            <h3> Bonjour, moi c'est 
+               HOUANGASSI yvette
+             et je suis  une developpeuse en devenir </h3>
+        
+            <div class="reseau-socio">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a> 
+        </div>
+        <div class="home-image">
+              <img src="../ROLLE projet/photo1.jpg" alt=""> 
+            <!-- mettre le lien de la premiere image sur cette ligne avec le fonction img-->
+        </div>
+
+ </section>
+     
+     <!--about section desing -->
+ <section class="about" id="about">
+        <div class="about-img">
+            <!-- ici ajouter une deuxieme image grace a la fonction img
+            <img src="../ROLLE projet/photo1.jpg" alt=""> -->
+        </div>
+  
+        <div class="about-content">
+         <h2 class="heading"> About <span>Me</span></h2>
+         <h3> developpeuse en devenir </h3>
+         <p> je suis une étudiante en informatique passionnée
+             par le développement web. J’aime créer des sites web 
+             et des applications qui sont à la fois fonctionnels,
+              esthétiques et adaptés aux besoins des utilisateurs. 
+              Je ne maîtrise pour le moment  les langages HTML, CSS et JavaScript. 
+              je suis en apprentissage du langage python.
+              Vous pouvez découvrir mes réalisations sur ce portfolio,
+               qui montrent mes compétences et ma créativité. 
+            N’hésitez pas à me contacter si vous avez un projet web à réaliser, 
+            je serai ravie de collaborer avec vous.</p>
+               <a href="#" class="btn"> En savoir plus </a>
+        </div>
+    </section>
+
+<!-- option services proposer-->
+     <section class="service" id="service">
+
+        <h2 class="heading"> our <span> Services</span></h2>
+        <div class="service-container">
+            <h3> Developpement web</h3>
+            <p> je suis une développeuse web enthousiaste et motivée.
+                 Je possède de solides connaissances en HTML, CSS et JavaScript,
+                  qui me permettent de créer des interfaces web dynamiques et interactives.
+                   Je suis également en train d’apprendre le langage Python, qui est très utilisé pour le développement web back-end,
+                    le traitement de données et l’intelligence artificielle.
+                     Je suis toujours à la recherche de nouveaux défis et de nouvelles opportunités d’apprentissage.
+                      Sur ce portfolio, vous pouvez voir quelques-uns de mes projets web,
+                       qui reflètent ma passion et ma curiosité pour le développement web.
+                        Si vous avez besoin d’une développeuse web compétente et créative,
+                         n’hésitez pas à me contacter, je serai ravie de discuter avec vous de votre projet.
+            </p>
+            <a href="#" class="btn"> en savoir plus</a>
+        </div>
+ </section>
+
+    <!------------- option portfolio ------------->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"> </h2>
+        <div class="portfolio-container">
+            <img src="../ROLLE projet/projet 1.jpg" alt="">
+        <!-- ici mettre une photo du rendu du premier projet -->
+            <div class="portfolio-layer">
+                <h4> Projet 1 </h4>
+                <p> mon premier projet etait de creer un site de vente de peluches</p>
+                <!-- ici de fait une petite description de mon premier projet -->
+            </div> 
+
+      <!-- presentation de tous les projets, (ici je vais reprendre la meme chose 3 fois pour pouvoir avoir une jolie grille)-->
+      
+            <div class="portfolio-container">
+                <img src="../ROLLE projet/projet 2.jpg" alt="">
+            <!-- ici mettre une photo du rendu du premier projet -->
+            <div class="portfolio-layer">
+                <h4> Projet 2 </h4>
+                <p> mon deuxieme projet est en cours </p>
+                <!-- ici de fait une petite description de mon deuxieme projet -->
+            </div> 
+        </div>
+    </section>
+  <!-- partie ou je vais mettre en place la partie contact de mon menu -->
+    <section class="contact" id="contact">
+     <h2 class="heading"> Contactez moi </h2>
+     <div class="input-box"></div>
+        <form action="#" class="essai">
+            <input type="text" placeholder="votre Nom">
+            <input type="email" placeholder="votre adress mail">
+            <input type="number" placeholder="votre numero de telephone">
+            
+        <textarea name="" id="" cols="30" rows="10" placeholder="votre message s'il vous plait">
+           </textarea>
+           <input type="submit" value=" Send message" class="btn">
+            </form> 
+        </div>
+   </section>
+         
+        <!-- pied de pageeeee -->
+        <footer class="footer-text">
+            <p>  by yvt 2024 </p>
+        </footer> 
+    
+        <!-- ====================================================================================-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    
+        <!-- customisons ensemble le java script -->
+        <script src="js/script.js"></script>
+</body>
+
+</html> 
