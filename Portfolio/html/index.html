@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Partie header -->
+        <header>
+            <nav>
+                <div class="logo">Portfolio</div>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon" >&#9776;</label>
+                <ul class="menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Partie main -->
+
+        <main>
+            <section id="accueil" class="section-accueil">
+                <div class="conteneur-accueil-gauche-info">
+                        <h1>Salut, <br>je suis <span class="couleur">Exaucé</span><br>
+                        <span class="couleur">Développeur web</span>
+                    </h1>
+                    <p>
+                    Je suis un développeur web junior, passionné <br> par le web et les nouvelles technologies
+                    </p>
+                    <div class="conteneur-accueil-lien-sociaux">
+
+                        <a href="mailto:nom@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href=http://www.linkedin.com" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="http://www.github.com" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="conteneur-accueil-droite-image">
+                    <img src="../images/bb42d137e3ad0bbcc44bc37e1c8ad00e.jpg" alt="">
+                </div>
+            </section>
+
+            <section id="services" class="section-services">
+                <h2>Services</h2>
+                <div class="service-conteneur">
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Développement Web</h3>
+                        <p>Création de sites web modernes <br> et réactifs.</p>
+                    </div>
+
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Développement Mobile</h3>
+                        <p>Applications mobiles performantes <br> et intuitives.</p>
+                    </div>
+
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Design UI/UX</h3>
+                        <p>Conception d'interfaces utilisateurs <br> attrayantes et ergonomiques.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="apropos" class="section-apropos">
+                <h2>À propos</h2>
+                <p>Je suis un développeur <br> passionné par la création de solution numériques.
+                    <br>Mon objectif est d'aider les entreprises à <br> 
+                    se demarquer grâce à des applications web et mobiles de qualités
+                </p>
+            </section>
+
+            <section id="contact" class="section-contact">
+                <h2>Contact</h2>
+                <form >
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="exaucé" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="nom@gmail.com" required>
+                    <label for="message">Mesage</label>
+                    <textarea id="message" rows="5" required ></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+
+        </main>
+
+            <!-- Partie footer -->
+        
+            <footer >
+                <div class="footer-conteneur">
+                <div class="footer-section">
+                    <h3>À propos</h3>
+                    <p>Dévelopeur web junior</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Lien rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact personnel</h3>
+                    <p>Email: <a href="mailto:nom@gmail.com">nom@gmail.ocm</a></p>
+                    <p>Téléphone: +228 99999999</p>
+                    <div class="footer-socials">
+                        <a href=http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href= https://wa.me/22899999999 " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+                <div class="footer-bottom">
+                    &copy; 2024 votrenom. Tous droits réservés.
+                </div>
+            </footer>
+
+
+</body>
+</html>

@@ -5,26 +5,35 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.conteneur-para p{
+    font-size: 24px;
 }
 
 .conteneur ul{
     display: flex;
     gap: 30px;
     list-style: none;
-    /* border: 1px solid black; */
 }
 .conteneur ul li a{
     display: flex;
     flex-direction: row;
     text-decoration: none;
     color: blue;
-    /* border: 1px solid black; */
 }
 
 @media screen and (max-width: 768px) {
     .conteneur ul{
         display: none;
     }
+
+    .conteneur-para p{
+        font-size: 16px;
+    }
+
+
 }
 
 
