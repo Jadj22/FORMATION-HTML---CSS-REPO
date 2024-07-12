@@ -4,33 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="header-conteneur" >
-        <h1>Nom</h1>
+
+    <!-- Partie Header -->
+
+    <header>
         <nav>
-            <ul>
-                <li><a href="#Accueil">Accueil</a></li>
-                <li><a href="#À-propos">À propos</a></li>
-                <li><a href="#Competences">Competences</a></li>
-                <li><a href="#Projets">Projets</a></li>
-                <li><a href="#Contact">Contact</a></li>
+            <div class="logo">Portfolio</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Partie main -->
+
     <main>
+        <section id="accueil" class="section-accueil">
+            <div class="conteneur-accueil-gauche-info">
+                <h1>Salut, <br>je suis <span class="couleur">prenom</span><br>
+                    <span class="couleur">Développeur Web</span>
+                    </h1>
+                    <p>Je suis un développeur web junior, passionné <br> par le web et les nouvelles technologie
+                <div class="conteneur-accueil-lien-sociaux">
+                    <a href="mailto:jadjdev2@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.github.com" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-file"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="conteneur-accueil-droite-image">
+                <img src="../images/profile-img.jpg" alt="profile">
+            </div>
+        </section>
         <section></section>
-
         <section></section>
-
-        <section></section>
-
-        <section></section>
-        
         <section></section>
     </main>
 
