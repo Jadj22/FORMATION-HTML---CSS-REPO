@@ -11,7 +11,6 @@
 <body>
 
     <!-- Partie Header -->
-
     <header>
         <nav>
             <div class="logo">Portfolio</div>
@@ -27,14 +26,13 @@
     </header>
 
     <!-- Partie main -->
-
     <main>
         <section id="accueil" class="section-accueil">
             <div class="conteneur-accueil-gauche-info">
                 <h1>Salut, <br>je suis <span class="couleur">prenom</span><br>
                     <span class="couleur">Développeur Web</span>
                     </h1>
-                    <p>Je suis un développeur web junior, passionné <br> par le web et les nouvelles technologie
+                    <p>Je suis un développeur web junior, passionné <br> par le web et les nouvelles technologie</p>
                 <div class="conteneur-accueil-lien-sociaux">
                     <a href="mailto:jadjdev2@gmail.com" target="_blank">
                         <i class="fa-solid fa-envelope"></i>
@@ -54,10 +52,75 @@
                 <img src="../images/profile-img.jpg" alt="profile">
             </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="services" class="section-services">
+            <h2>Services</h2>
+            <div class="service-container">
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web modernes et réactifs.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-mobile-alt"></i>
+                    <h3>Développement Mobile</h3>
+                    <p>Applications mobiles performantes et intuitives.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-paint-brush"></i>
+                    <h3>Design UI/UX</h3>
+                    <p>Conception d'interfaces utilisateurs attrayantes et ergonomiques.</p>
+                </div>
+            </div>
+        </section>
+        <section id="apropos" class="section-apropos">
+            <h2>À propos</h2>
+            <p>Je suis un développeur passionné par la création de solutions numériques. Mon objectif est d'aider les entreprises à se démarquer grâce à des applications web et mobiles de qualité.</p>
+        </section>
+        <section id="contact" class="section-contact">
+            <h2>Contact</h2>
+            <form action="https://example.com/form" method="POST">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
     </main>
+
+    <!-- Partie footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>À propos</h3>
+            <p>Je suis un développeur web passionné par la création de solutions numériques. Mon objectif est d'aider les entreprises à se démarquer grâce à des applications web et mobiles de qualité.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Liens rapides</h3>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:jadjdev2@gmail.com">jadjdev2@gmail.com</a></p>
+            <p>Téléphone: +123 456 7890</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 VotreNom. Tous droits réservés.
+    </div>
+</footer>
+
 
 </body>
 </html>
